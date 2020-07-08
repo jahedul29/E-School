@@ -51,7 +51,6 @@ header .navbar img {
     padding: 10% 0px;
     transition: box-shadow .5s ease;
     height: 85%;
-    width: 80%;
 }
 
 .features .single-feature:hover {
