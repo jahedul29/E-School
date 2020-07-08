@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-bottom: 50px;
+}
+
+/* Start navbar area */
+
+/* Start header area */
+header {
+    background-color: #7fce921e;
+}
+
+header .navbar img {
+    width: 35%;
+}
+
+.nav-item {
+    padding-right: 30px;
+    font-size: 15px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.button-green {
+    background-color: #29c479;
+    color: white;
+    border-radius: 20px;
+    padding: 1.5% 8%;
+}
+
+.nav-link:hover {
+    background-color: #29c479;
+    color: white;
+    border-radius: 20px;
+    padding: 8% 15%;
+}
+
+/* Start feature section */
+.features .feature-img {
+    width: 30%;
+    margin-bottom: 25px;
+}
+
+.features .single-feature {
+    background-color: #7fce921e;
+    padding: 10% 0px;
+    transition: box-shadow .5s ease;
+    height: 85%;
+    width: 80%;
+}
+
+.features .single-feature:hover {
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* Start Courses area */
+#courses .card .card-footer img {
+    width: 20%;
+}
+
+.card {
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray;
+    transition: box-shadow .5s ease;
+}
+
+.card:hover {
+    box-shadow: none;
+}
+
+.card .card-footer {
+    border: none;
+    background-color: white;
+}
+
+/* Start testimonial area */
+#testimonial .testimonial-content img {
+    width: 40%;
+}
+
+#testimonial .testimonial-content p {
+    width: 70%;
+    display: inline-block;
+}
+
+.heading {
+    margin: 6% 0;
+}
+
+/* Start footer  */
+footer {
+    background-color: rgb(67, 67, 70);
+    color: white;
+    height: 400px;
+    padding-top: 5%;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li:first-child {
+    font-size: 20px;
+    font-weight: 550;
+}
