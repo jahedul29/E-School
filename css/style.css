@@ -2,8 +2,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.container {
-    margin-bottom: 50px;
+section {
+    margin-top: 85px;
 }
 
 /**************************************** Start header area *************************************/
@@ -115,11 +115,40 @@ header .navbar a img {
     width: 40%;
 }
 
+/*********************************** Start Offers ******************************************/
+#offers .carousel-inner {
+    background-color: #9f9fc082;
+    height: 80%;
+}
+
+#offers .offer-content {
+    padding-left: 10%;
+}
+
+#offers .offer-content h2 {
+    color: rgb(55, 57, 63);
+}
+
+#offers .offer-content h4 {
+    text-decoration: line-through;
+    text-decoration-color: black;
+    color: red;
+    padding: 0 5%;
+    padding-top: 2%;
+}
+
+#offers .offer-content h3 {
+    color: green;
+    padding: 0 5%;
+    padding-bottom: 2%;
+}
+
 /*********************************** Start footer  ******************************************/
 footer {
     background-color: rgb(67, 67, 70);
     color: white;
     padding-top: 4%;
+    margin-top: 85px;
 }
 
 footer ul {
