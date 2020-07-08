@@ -85,6 +85,10 @@ header .navbar a img {
     background-color: white;
 }
 
+.card .card-footer span {
+    font-size: 75%;
+}
+
 /******************************* Start testimonial area *************************************/
 #testimonial .testimonial-content img {
     width: 40%;
@@ -107,12 +111,15 @@ header .navbar a img {
     color: rgb(224, 211, 211);
 }
 
+.sub-content input {
+    width: 40%;
+}
+
 /*********************************** Start footer  ******************************************/
 footer {
     background-color: rgb(67, 67, 70);
     color: white;
-    height: 400px;
-    padding-top: 5%;
+    padding-top: 4%;
 }
 
 footer ul {
